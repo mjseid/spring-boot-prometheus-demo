@@ -1,6 +1,8 @@
 endpoints:
   prometheus:
-    path: "prometheus-metrics"
+    path: "metrics"
+  metrics:
+    path: "sb-metrics"
 
 management:
   port: 8081
